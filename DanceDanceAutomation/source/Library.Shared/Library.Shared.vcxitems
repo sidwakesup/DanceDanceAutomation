@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{0121a517-6f60-4bfb-8cb7-8b119e338be6}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AmplitudeInfo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)BeatDetector.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Defines.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MaximalCliquePartition.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MiniBpm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MP3Decoder.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)BarData.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SelfSimilarityMatrix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)StepChartGenerator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TimeStamp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Waveform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AmplitudeInfo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)BeatDetector.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MaximalCliquePartition.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MiniBpm.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MP3Decoder.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)BarData.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)StepChartGenerator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TimeStamp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Waveform.cpp" />
+  </ItemGroup>
+</Project>

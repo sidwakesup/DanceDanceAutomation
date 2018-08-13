@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Shared", "..\source\Library.Shared\Library.Shared.vcxitems", "{0121A517-6F60-4BFB-8CB7-8B119E338BE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Desktop", "..\source\Library.Desktop\Library.Desktop.vcxproj", "{DAB6EE13-7C54-4115-B930-B2B131C66C71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DanceDanceAutomation", "..\source\DanceDanceAutomation\DanceDanceAutomation.vcxproj", "{0A9174B5-5303-44D6-9B50-622016F394F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71} = {DAB6EE13-7C54-4115-B930-B2B131C66C71}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DDRTrends", "..\source\DDRTrends\DDRTrends.vcxproj", "{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\source\Library.Shared\Library.Shared.vcxitems*{0121a517-6f60-4bfb-8cb7-8b119e338be6}*SharedItemsImports = 9
+		..\source\Library.Shared\Library.Shared.vcxitems*{0a9174b5-5303-44d6-9b50-622016f394f5}*SharedItemsImports = 4
+		..\source\Library.Shared\Library.Shared.vcxitems*{dab6ee13-7c54-4115-b930-b2b131c66c71}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Debug|x64.ActiveCfg = Debug|x64
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Debug|x64.Build.0 = Debug|x64
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Debug|x86.Build.0 = Debug|Win32
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Release|x64.ActiveCfg = Release|x64
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Release|x64.Build.0 = Release|x64
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Release|x86.ActiveCfg = Release|Win32
+		{DAB6EE13-7C54-4115-B930-B2B131C66C71}.Release|x86.Build.0 = Release|Win32
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Debug|x64.ActiveCfg = Debug|x64
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Debug|x64.Build.0 = Debug|x64
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Debug|x86.Build.0 = Debug|Win32
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Release|x64.ActiveCfg = Release|x64
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Release|x64.Build.0 = Release|x64
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Release|x86.ActiveCfg = Release|Win32
+		{0A9174B5-5303-44D6-9B50-622016F394F5}.Release|x86.Build.0 = Release|Win32
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Debug|x64.ActiveCfg = Debug|x64
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Debug|x64.Build.0 = Debug|x64
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Debug|x86.Build.0 = Debug|Win32
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Release|x64.ActiveCfg = Release|x64
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Release|x64.Build.0 = Release|x64
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Release|x86.ActiveCfg = Release|Win32
+		{F9151007-3FCC-4BA3-9BD7-9EC0221C9594}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4329A69-5E37-46D4-A017-18234A9BC758}
+	EndGlobalSection
+EndGlobal
